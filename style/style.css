@@ -1,0 +1,12 @@
+body {
+    background-color: #ed9600;
+    font-family: "Roboto", sans-serif;
+    /* background-image: url('assets/beehive-bg.jpg'); */
+}
+
+button {
+    padding: 8px 24px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 1px solid black;
+}

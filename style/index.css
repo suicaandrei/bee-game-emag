@@ -1,0 +1,46 @@
+body {
+    background-color: #ed9600;
+    color: #5d0404;
+    font-family: "Roboto", sans-serif;
+    /* background-image: url('assets/beehive-bg.jpg'); */
+}
+
+.intro-container {
+    margin: auto;
+    width: max-content;
+    margin-top: 60px;
+    background-color: #efcd8e;
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: chocolate;
+
+    input {
+        padding: 12px;
+        width: 50%;
+        border: 1px solid rgb(139, 139, 151);
+        border-radius: 5px;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    .rules-content {
+        margin-bottom: 16px;
+
+        li {
+            font-size: 16px;
+        }
+    }
+
+    .player-input {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .error{
+        font-size: 14px;
+        color: red;
+    }
+}
