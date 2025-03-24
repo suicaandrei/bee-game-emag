@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bee Game</title>
+
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="intro-container">
+      <h1>Welcome to the Bee Game</h1>
+
+      <div class="rules-content">
+        <p>Rules:</p>
+
+        <li>Enter your name</li>
+        <li>Press start game</li>
+        <li>Press hit button. One random bee will be hit</li>
+        <li>If the queen dies all other bees die</li>
+        <li>You win when all bees are dead</li>
+      </div>
+
+      <div class="player-input">
+        <input type="text" id="player-input" placeholder="Enter your name" />
+        <button id="start-btn">Start Game</button>
+      </div>
+
+      <div class="error" id="error-message"></div>
+    </div>
+
+    <script src="index.js"></script>
+    <!-- <script type="module" src="js/game.js"></script> -->
+  </body>
+</html>

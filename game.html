@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bee game</title>
+
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/game.css" />
+    <link rel="stylesheet" href="style/animation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="player-content">
+      <h1 id="player-name">Player:</h1>
+    </div>
+
+    <div id="game-content" class="game-container">
+      <div id="swarm-content">
+        <p id="swarm-health"></p>
+        <div id="bees-content"></div>
+      </div>
+
+      <div class="side-content">
+        <div id="log-content">
+          <p>Log:</p>
+        </div>
+
+        <div id="btns-content">
+          <button id="hit-btn">Hit</button>
+
+          <button id="reset-btn">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
